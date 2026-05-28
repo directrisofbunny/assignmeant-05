@@ -138,17 +138,18 @@ body {
   overflow: hidden;
   justify-content: center;
   width: 90%;
-  justify-self: center;
   background-color: blue;
 }
 .op{
   display: flex;
   flex-shrink: 0;
-  /* animation: anime 10s linear infinite; */
+  animation: anime 10s linear infinite;
 }
-#sliding img{
+.op img{
   height: 150px;
   width: 250px;
+  display: flex;
+  flex-shrink: 0;
 }
 @keyframes anime {
   from{
